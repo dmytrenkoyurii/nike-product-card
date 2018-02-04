@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>THE RUNNING HAS JUST BEGUN</title> <!-- Заголовок для пошукових систем -->
+  <meta charset="UTF-8"> <!-- Формат перетворення Юнікоду -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Всегда использует последний доступный стандартный режим отображения -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Типичный сайт, оптимизированный для мобильных устройств -->
+  <meta name="keywords" content="running, run, shoes, Nike"> <!-- Ключові слова, що зустрічаються на сторінці -->
+	<meta name="description" content="THE RUNNING HAS JUST BEGUN - new shoes for running"> <!-- Опис для пошукових систем -->
+	<link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="normalize.css" />
+</head>
+<body>
+  <!-- Тіло. Фон -->
+  <div class="body">
+    <!-- Лого -->
+    <div class="body__logo"></div>
+
+    <!-- Навігація -->
+    <table  class="body__nav">
+      <tr>
+        <td><a href="#">LIFESTYLE</a></td>
+        <td><a href="index.html"><u>RUNNING</u></a></td>
+        <td><a href="#">FOOTBALL</a></td>
+        <td><a href="#">SKATEBOARDING</a></td>
+      </tr>
+    </table>
+
+    <!-- Навігація -->
+    <div class="body__nav">
+    </div>
+
+    <!-- Ефект позаду основної картки товару -->
+    <div class="back-card">
+    </div>
+
+    <!-- Картка товару -->
+    <div class="card">
+
+      <!-- Блок "Взуття" -->
+      <div class="card__shoes">
+        <!-- Вигляди з різних сторін -->
+        <img class="card__shoes--big" src="images/shoes.png" alt="Nike Shoes"> <!-- Велике зображення взуття -->
+        <img class="card__shoes--1" src="images/shoes-img1.png" alt="Nike Shoes 1"> <!-- Маленьке зображення взуття 1 -->
+        <img class="card__shoes--2" src="images/shoes-img2.png" alt="Nike Shoes 2"> <!-- Маленьке зображення взуття 2 -->
+        <img class="card__shoes--3" src="images/shoes-img3.png" alt="Nike Shoes 3"> <!-- Маленьке зображення взуття 3 -->
+      </div>
+
+      <!-- Інформація про товар -->
+      <div class="card__info">
+        <!-- Кнопка "Close" -->
+        <img class="card__close" src="images/close.png" alt="close_button">
+        <!-- "New" -->
+        <div class="card__info--new">
+          <p>NEW</p>
+        </div>
+        <!-- Назва товару -->
+        <p class="card__info--name">THE <span class="colortext">RUNNING</span> <br> HAS JUST BEGUN</p>
+        <!-- Категорія та рейтинг товару -->
+        <div class="">
+          <p class="card__info--cat">Huarache</p>
+        </div>
+        <!-- Ціна товару -->
+        <div >
+          <p class="card__info--price">$ 200</p>
+        </div>
+
+        <!-- Форма замовлення -->
+        <div>
+          <form class="card__oder" name="oder">
+            <label>Size</label> <br>
+            <input class="card__oder--btn" type="button" value="7">
+            <input class="card__oder--btn" type="button" value="8">
+            <input class="card__oder--btn" type="button" value="9">
+            <input class="card__oder--btn" type="button" value="10">
+            <input class="card__oder--btn" type="button" value="11">
+            <input class="card__oder--add" type="submit" value="ADD  TO CARD">
+            <input class="card__oder--wish" type="submit" value="WISHLIST">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

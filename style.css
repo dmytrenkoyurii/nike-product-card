@@ -1,0 +1,216 @@
+/* Підключення шрифта */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+.body {
+	width: 880px;
+	height: 630px;
+	margin: 50px;
+	background-image: url(images/background.png);
+	background-size: contain;
+}
+/* Логотип Nike */
+.body__logo {
+  background-image: url("images/logo.png");
+  position: absolute;
+  left: 120px;
+  top: 80px;
+  width: 40px;
+  height: 14px;
+}
+/* Навігація */
+.body__nav {
+	width: 460px;
+	font-size: 12px;
+	font-family: Arial, serif;
+	color: rgb(255, 255, 255);
+	line-height: 2.224;
+	position: absolute;
+	left: 320px;
+	top: 80px;
+}
+/* Стиль шрифту посиланнь в "Навігація" */
+.body__nav a {
+	text-decoration: none;
+	color: white;
+}
+/* Блок з взуттям */
+.card__shoes {
+	background-image: url("images/bg-shoes.png");
+  background-color: rgb(244, 244, 244);
+  position: absolute;
+  left: 122px;
+  top: 157px;
+  width: 750px;
+  height: 428px;
+}
+/* Велике зображення взуття */
+.card__shoes--big {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 415px;
+}
+.card__shoes--big:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+/* Маленьке зображення взуття 1 */
+.card__shoes--1 {
+  position: absolute;
+  left: 175px;
+  bottom: 25px;
+    width: 45px;
+}
+.card__shoes--1:hover {
+    transform: scale(1.8);
+    transition: 1s;
+}
+/* Маленьке зображення взуття 2 */
+.card__shoes--2 {
+position: absolute;
+  left: 235px;
+  bottom: 25px;
+    width: 45px;
+}
+.card__shoes--2:hover {
+    transform: scale(1.8);
+    transition: 1s;
+}
+/* Маленьке зображення взуття 3 */
+.card__shoes--3 {
+position: absolute;
+  left: 295px;
+  bottom: 25px;
+    width: 45px;
+}
+.card__shoes--3:hover {
+    transform: scale(1.8);
+    transition: 1s;
+}
+/* Інформація */
+.card__info {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 624px;
+  top: 157px;
+  width: 248px;
+  height: 428px;
+}
+/* Кнопка "Close" */
+.card__close {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 16px;
+  height: 16px;
+}
+/* "New" */
+.card__info--new {
+	background-color: rgb(255, 166, 13);
+	font-size: 13px;
+	font-family: 'Roboto';
+	text-align: center;
+	color: white;
+	position: absolute;
+	line-height: 0;
+	left: 35px;
+	top: 45px;
+	width: 42px;
+	height: 24px;
+}
+/* Назва товару */
+.card__info--name {
+	font-size: 22px;
+	font-family: 'Roboto';
+	position: absolute;
+	font-weight: 100;
+	color: black;
+	line-height: 1.083;
+	left: 35px;
+	top: 60px;
+}
+/* Виділення слова синім */
+.colortext {
+     color: #5e4fff; 
+   }
+/* Категорія та рейтинг товару */
+.card__info--cat {
+	font-size: 10px;
+	font-family: 'Roboto';
+	position: absolute;
+	font-weight: 100;
+	color: black;
+	line-height: 1.083;
+	left: 35px;
+	top: 130px;
+}
+/* Ціна товару */
+.card__info--price {
+	font-size: 20px;
+	font-family: 'Roboto';
+	position: absolute;
+	font-weight: 100;
+	color: black;
+	line-height: 1.083;
+	left: 35px;
+	top: 150px;
+}
+/* Форма замовлення */
+.card__oder {
+	font-size: 14px;
+	font-family: 'Roboto';
+	position: absolute;
+	font-weight: 100;
+	left: 35px;
+	top: 210px;
+}
+/* Кнопка "ADD  TO CARD" */
+.card__oder--add {
+	background: #a200b8;
+	 width: 120px;
+	 height: 30px;
+	 color: white;
+	 font-weight: 300;
+	 border: none;
+	 margin-top: 40px;
+}
+.card__oder--add:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+/* Кнопка "WISHLIST" */
+.card__oder--wish {
+	background: white;
+	 width: 120px;
+	 height: 30px;
+	 color: black;
+	 font-weight: 300;
+	 border: 1px solid black;
+	 margin-top: 5px;
+}
+.card__oder--wish:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+/* Кнопка розміру 7,8,9,10,11 */
+.card__oder--btn {
+	background: white;
+    width: 25px;
+    height: 25px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-right: 10px;
+}
